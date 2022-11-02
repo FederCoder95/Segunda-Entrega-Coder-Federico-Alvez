@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+        <div>  
+        <header>
+            <nav class="nav">
+                <img class="logoPrincipal" src="/img/imegen superior ambatex.png" alt="logoEntrada">
+                <ul class="menu">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/pages/productos.html">Productos</a></li>
+                    <li><a href="/pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="/pages/contacto.html">Contacto</a></li>
+                    <li><a href="/pages/accesoCliente.html">Acceso Clientes</a></li>
+                </ul>
+                <div class="get-started">
+                    <button class="css-button-sliding-to-top--blue">Acceso Clientes</button>
+                    <button class="css-button-sliding-to-bottom--black">Registrate</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div>
+        <form name="frm" method="post" action="envio.php">
+            <fieldset id="form">
+            <legend>Crear Cuenta</legend>
+            <ol>
+                <li><label>Nombre: </label><input type="text" name="fname" size="25" /></li>
+                <li><label>E-mail: </label><input type="text" name="femail" size="25" /></li>
+                <li><label>Dirección: </label><input type="text" name="fdireccion" size="25" /></li>    
+            </ul>
+                <p align="center"><input type="submit" name="submit" class="btn" value="Enviar" /></p>
+            </fieldset>
+            </form>
+            <form name="frm" method="post" action="envio.php">
+                <fieldset id="form">
+                <legend>Iniciar Sesion</legend>
+                <ol>
+                    <li><label>Direccion: </label><input type="text" name="fname" size="25" /></li>
+                    <li><label>Contraseña: </label><input type="text" name="femail" size="25" /></li>
+                </ul>
+                    <p align="center"><input type="submit" name="submit" class="btn" value="Entrar" /></p>
+                </fieldset>
+                </form>
+    </div>
+    <footer>		
+        <ul>
+        <li><a href="/index.html">Ambatex</a></li>
+        <li><a href="/pages/productos.html">Productos</a></li>
+        <li><a href="/pages/sobre_nosotros.html">Sobre Nosotros</a></li>	
+        <ul>
+            <li> <a href="https://instagram.com">
+                <img class="imgFooter" src="/img/instagram.jpg" alt="logo">
+            </a> </li>
+            <li> <a href="https://twitter.com">
+                <img class="imgFooter" src="/img/twitter.png" alt="logoInsta">
+            </a></li>
+        </ul>		
+    
+</footer>	
+</body>
+</html>
